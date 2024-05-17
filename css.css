@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+iframe::-webkit-scrollbar {
+    display: none;
+}
+.menu{ 
+    display: flex;
+    justify-content: space-around;
+    background-image: url("_line\ drawing_\ _\ 7\ 440\ 781\ images\,\ photos\ de\ stock\,\ objets\ 3D\ et\ images\ vectorielles\ _\ Shutterstock.jpeg");
+    height: 10%;
+    background-size: contain;
+    color:  rgb(96, 112, 52);
+    font-size: xx-large; 
+  }
+  .texte-grand {
+    font-size: 50px; /* Taille de la police en pixels */
+}
+.menu-item{
+font-size: xx-large;
+text-transform: uppercase;
+padding: 10px;
+background-color: rgb(237, 244, 218);
+}
+.menu-item:hover{
+background-color:  rgb(237, 244, 218);
+font-size: 40px;
+
+}
+body{ 
+    background-color:  rgb(237, 244, 218);
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+p{
+    
+    color: black;
+    opacity: 0,3;
+  
+}
+.table-container {
+    text-align: center;
+  
+    
+  }
+  .row {
+    white-space: nowrap;
+
+  }
+  
+  .cell {
+    display: inline-block;
+    width: 10px; /* Largeur des cellules */
+    border: 1px solid black;
+    padding: 8px;
+    margin: 4px;
+    color:  rgb(96, 112, 52);
+  }
+.content-item{
+  width: 90%;
+  border: 1px  rgb(96, 112, 52);
+  overflow: auto; /* to clear float */
+}
+.box {
+  border: 0px solid  rgb(96, 112, 52);
+  display: inline-block;
+  margin: 1.5%;
+  width: 20%;
+}
+#myframe {
+  border: rgb(96, 112, 52) ;
+  width: 70% ;
+  height: 21500px;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  /* scrollbar-width: thin; */
+  /* overflow: hidden; */
+}
+.myframe::-webkit-scrollbar{
+  overflow: hidden;
+  border: rgb(96, 112, 52);
+    display: none;
+}
+
+
+.d {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* Styles pour le tableau */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px rgb(96, 112, 52);
+ 
+}
+
+.styled-table th, .styled-table td {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid rgb(96, 112, 52);
+}
+
+.styled-table th {
+  background-color:  rgb(96, 112, 52);
+}
